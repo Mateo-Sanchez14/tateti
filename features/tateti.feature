@@ -6,9 +6,11 @@ Característica: Jugar al TaTeTi en linea
     Entonces le toca mover a "Juan"
     Y el tablero esta vacio
 
-  @wip
   Escenario: El primer jugador hace un movimiento
-    Dado que "Juan" y "Pedro" empiezan una partida
-    Cuando "Juan" marca la casilla 1
+    Dado "Juan" y "Pedro" empiezan una partida
+    Cuando "Juan" marca la fila 1 y la columna 1
     Entonces le toca mover a "Pedro"
-    Y el tablero tiene una X en la casilla 1
+    Y el tablero queda de la siguiente manera:
+      | x |  |  |
+      |   |  |  |
+      |   |  |  |
